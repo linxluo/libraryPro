@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://117.50.188.224:3306/libraryPro?useUnicode=true&characterEncoding=utf-8
+    username: linluo
+    password: Wang_Hao
+  mail:
+    host: smtp.163.com
+    username: linxluo@163.com
+    password: SZLZDWDRGZMCRWHO
+    port: 465
+    properties:
+      from: linxluo@163.com
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+  data:
+    redis:
+      database: 0
+      host: 117.50.188.224
+      port: 6379
+server:
+  port: 80
+
